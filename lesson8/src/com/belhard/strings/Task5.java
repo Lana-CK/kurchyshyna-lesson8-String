@@ -11,6 +11,6 @@ public class Task5 {
 			String replace = str5.replace("  ", " ");
 			str5 = replace;
 		}
-		System.out.println(str5);
+		System.out.printf("The string without spaces:\n" + str5);
 	}
 }

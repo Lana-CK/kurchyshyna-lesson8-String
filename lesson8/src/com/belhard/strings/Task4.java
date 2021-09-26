@@ -20,7 +20,7 @@ public class Task4 {
 		if (number) {
 			count++;
 		}
-		System.out.println(str4);
-		System.out.println("Number of numbers: " + count);
+		System.out.printf("Original text:%n\"%s\"%n", str4);
+		System.out.println("\nNumber of numbers: " + count);
 	}
 }
